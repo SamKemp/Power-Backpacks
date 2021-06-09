@@ -1,0 +1,9 @@
+{
+    "name": "Power-Backpacks",
+    "version": "0.1.0",
+    "title": "Power Backpacks",
+    "author": "SamKemp55",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1"],
+    "description": "A mod adding backpacks as well as powered versions!"
+  }
