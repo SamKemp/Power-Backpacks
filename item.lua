@@ -1,7 +1,7 @@
 -- Items
 data:extend({
 	{
-		type = "items",
+		type = "item",
 		name = "backpack-wooden",
 		icon = "__Power-Backpacks__/graphics/backpack-wooden.png",
 		icon_size = 64,
@@ -9,7 +9,7 @@ data:extend({
         stack_size = 64
 	},
     {
-		type = "items",
+		type = "item",
 		name = "backpack-iron",
 		icon = "__Power-Backpacks__/graphics/backpack-iron.png",
 		icon_size = 64,
@@ -18,7 +18,7 @@ data:extend({
 	},
     
     {
-		type = "items",
+		type = "item",
 		name = "backpack-steel",
 		icon = "__Power-Backpacks__/graphics/backpack-steel.png",
 		icon_size = 64,
