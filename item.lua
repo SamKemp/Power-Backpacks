@@ -5,6 +5,7 @@ data:extend({
 		name = "backpack-wooden",
 		icon = "__Power-Backpacks__/graphics/backpack-wooden.png",
 		icon_size = 64,
+        subgroup = "raw-resource",
         --order = "a[light-armor]",
         stack_size = 64
 	},
@@ -13,6 +14,7 @@ data:extend({
 		name = "backpack-iron",
 		icon = "__Power-Backpacks__/graphics/backpack-iron.png",
 		icon_size = 64,
+        subgroup = "raw-resource",
         --order = "a[light-armor]",
         stack_size = 64
 	},
@@ -22,6 +24,7 @@ data:extend({
 		name = "backpack-steel",
 		icon = "__Power-Backpacks__/graphics/backpack-steel.png",
 		icon_size = 64,
+        subgroup = "raw-resource",
         --order = "a[light-armor]",
         stack_size = 64
 	},

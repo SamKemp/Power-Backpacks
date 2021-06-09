@@ -4,7 +4,7 @@ data:extend({
         type = "recipe",
         name = "backpack-wooden",
         --enabled = false,
-        energy_required = 3,
+        energy_required = 1,
         ingredients =
         {
             {"wood", 4},
@@ -15,7 +15,7 @@ data:extend({
         type = "recipe",
         name = "backpack-iron",
         --enabled = false,
-        energy_required = 3,
+        energy_required = 2,
         ingredients =
         {
             {"backpack-wooden", 4},
