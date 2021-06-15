@@ -4,7 +4,7 @@ data:extend({
         type = "recipe",
         name = "backpack-wooden",
         --enabled = false,
-        energy_required = 1,
+        energy_required = 0.5,
         ingredients =
         {
             {"wood", 4},
@@ -15,7 +15,7 @@ data:extend({
         type = "recipe",
         name = "backpack-iron",
         --enabled = false,
-        energy_required = 2,
+        energy_required = 1,
         ingredients =
         {
             {"backpack-wooden", 4},
@@ -27,7 +27,7 @@ data:extend({
         type = "recipe",
         name = "backpack-steel",
         --enabled = false,
-        energy_required = 3,
+        energy_required = 1.5,
         ingredients =
         {
             {"backpack-iron", 8},
@@ -56,7 +56,7 @@ data:extend({
         name = "backpack-mk2",
         --enabled = false,
         order = "b[heavy-backpack]",
-        energy_required = 10,
+        energy_required = 8,
         ingredients =
         {
             {"copper-plate", 100},
@@ -70,7 +70,7 @@ data:extend({
         name = "backpack-mk3",
         --enabled = false,
         order = "c[modular-backpack]",
-        energy_required = 10,
+        energy_required = 15,
         ingredients =
         {
             {"steel-plate", 50},
@@ -84,7 +84,7 @@ data:extend({
         name = "backpack-mk4",
         --enabled = false,
         order = "d[power-backpack]",
-        energy_required = 10,
+        energy_required = 20,
         ingredients =
         {
             {"steel-plate", 40},
@@ -99,7 +99,7 @@ data:extend({
         name = "backpack-mk5",
         --enabled = false,
         order = "e[power-backpack-mk2]",
-        energy_required = 10,
+        energy_required = 30,
         ingredients =
         {
             {"processing-unit", 60},
@@ -116,7 +116,7 @@ data:extend({
         name = "backpack-mk6",
         --enabled = false,
         order = "f[power-backpack-mk3]",
-        energy_required = 10,
+        energy_required = 40,
         ingredients =
         {
             {"processing-unit", 120},
@@ -133,7 +133,7 @@ data:extend({
         name = "backpack-mk7",
         --enabled = false,
         order = "g[power-backpack-mk4]",
-        energy_required = 10,
+        energy_required = 50,
         ingredients =
         {
             {"processing-unit", 240},
@@ -144,5 +144,40 @@ data:extend({
             {"backpack-steel", 32},
         },
         result = "backpack-mk7"
+    },
+})
+-- Power Armor Recipies
+data:extend({
+    { -- Power Armor MK3
+        type = "recipe",
+        name = "power-armor-mk3",
+        --enabled = false,
+        order = "f[power-backpack-mk3]",
+        energy_required = 40,
+        ingredients =
+        {
+            {"processing-unit", 120},
+            {"electric-engine-unit", 80},
+            {"low-density-structure", 80},
+            {"speed-module-3", 20},
+            {"effectivity-module-3", 20},
+        },
+        result = "power-armor-mk3"
+    },
+    { -- Power Armor MK4
+        type = "recipe",
+        name = "power-armor-mk4",
+        --enabled = false,
+        order = "g[power-backpack-mk4]",
+        energy_required = 50,
+        ingredients =
+        {
+            {"processing-unit", 240},
+            {"electric-engine-unit", 160},
+            {"low-density-structure", 160},
+            {"speed-module-3", 40},
+            {"effectivity-module-3", 40},
+        },
+        result = "power-armor-mk4"
     },
 })

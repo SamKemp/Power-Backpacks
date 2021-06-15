@@ -275,3 +275,76 @@ data:extend({
         inventory_size_bonus = 140
 	},
 })
+-- Backpacks
+data:extend({
+    { -- Power Armor MK3
+		type = "armor",
+		name = "power-armor-mk3",
+		icon = "__Power-Backpacks__/graphics/power-armor-mk3.png",
+		icon_size = 64,
+		resistances =
+        {
+        {
+            type = "physical",
+            decrease = 20,
+            percent = 60
+        },
+        {
+            type = "acid",
+            decrease = 20,
+            percent = 60
+        },
+        {
+            type = "explosion",
+            decrease = 30,
+            percent = 60
+        },
+        {
+            type = "fire",
+            decrease = 30,
+            percent = 80
+        }
+        },
+        subgroup = "armor",
+        order = "f[power-armor-mk3]",
+        stack_size = 1,
+        infinite = true,
+        equipment_grid = "large-equipment-grid",
+        inventory_size_bonus = 50
+	},
+    { -- Power Armor MK4
+		type = "armor",
+		name = "power-armor-mk4",
+		icon = "__Power-Backpacks__/graphics/power-armor-mk4.png",
+		icon_size = 64,
+		resistances =
+        {
+        {
+            type = "physical",
+            decrease = 30,
+            percent = 60
+        },
+        {
+            type = "acid",
+            decrease = 30,
+            percent = 60
+        },
+        {
+            type = "explosion",
+            decrease = 40,
+            percent = 60
+        },
+        {
+            type = "fire",
+            decrease = 0,
+            percent = 100
+        }
+        },
+        subgroup = "armor",
+        order = "g[power-armor-mk4]",
+        stack_size = 1,
+        infinite = true,
+        equipment_grid = "large-equipment-grid",
+        inventory_size_bonus = 60
+	},
+})
