@@ -42,6 +42,7 @@ data:extend({
         type = "recipe",
         name = "backpack-mk1",
         --enabled = false,
+        order = "a[light-backpack]",
         energy_required = 3,
         ingredients =
         {
@@ -54,6 +55,7 @@ data:extend({
         type = "recipe",
         name = "backpack-mk2",
         --enabled = false,
+        order = "b[heavy-backpack]",
         energy_required = 10,
         ingredients =
         {
@@ -67,6 +69,7 @@ data:extend({
         type = "recipe",
         name = "backpack-mk3",
         --enabled = false,
+        order = "c[modular-backpack]",
         energy_required = 10,
         ingredients =
         {
@@ -80,6 +83,7 @@ data:extend({
         type = "recipe",
         name = "backpack-mk4",
         --enabled = false,
+        order = "d[power-backpack]",
         energy_required = 10,
         ingredients =
         {
@@ -94,6 +98,7 @@ data:extend({
         type = "recipe",
         name = "backpack-mk5",
         --enabled = false,
+        order = "e[power-backpack-mk2]",
         energy_required = 10,
         ingredients =
         {
@@ -110,6 +115,7 @@ data:extend({
         type = "recipe",
         name = "backpack-mk6",
         --enabled = false,
+        order = "f[power-backpack-mk3]",
         energy_required = 10,
         ingredients =
         {
@@ -126,6 +132,7 @@ data:extend({
         type = "recipe",
         name = "backpack-mk7",
         --enabled = false,
+        order = "g[power-backpack-mk4]",
         energy_required = 10,
         ingredients =
         {

@@ -60,7 +60,7 @@ data:extend({
         }
         },
         subgroup = "armor",
-        order = "Light Backpack",
+        order = "a[light-backpack]",
         stack_size = 1,
         infinite = true,
         inventory_size_bonus = 20
@@ -94,7 +94,7 @@ data:extend({
         }
         },
         subgroup = "armor",
-        order = "Heavy Backpack",
+        order = "b[heavy-backpack]",
         stack_size = 1,
         infinite = true,
         inventory_size_bonus = 40
@@ -128,7 +128,7 @@ data:extend({
         }
         },
         subgroup = "armor",
-        order = "Modular Backpack",
+        order = "c[modular-backpack]",
         stack_size = 1,
         infinite = true,
         equipment_grid = "medium-equipment-grid",
@@ -163,7 +163,7 @@ data:extend({
         }
         },
         subgroup = "armor",
-        order = "Power Backpack",
+        order = "d[power-backpack]",
         stack_size = 1,
         infinite = true,
         equipment_grid = "large-equipment-grid",
@@ -198,7 +198,7 @@ data:extend({
         }
         },
         subgroup = "armor",
-        order = "Power Backpack MK2",
+        order = "e[power-backpack-mk2]",
         stack_size = 1,
         infinite = true,
         equipment_grid = "large-equipment-grid",
@@ -233,7 +233,7 @@ data:extend({
         }
         },
         subgroup = "armor",
-        order = "Power Backpack MK3",
+        order = "f[power-backpack-mk3]",
         stack_size = 1,
         infinite = true,
         equipment_grid = "large-equipment-grid",
@@ -268,7 +268,7 @@ data:extend({
         }
         },
         subgroup = "armor",
-        order = "Power Backpack M4",
+        order = "g[power-backpack-mk4]",
         stack_size = 1,
         infinite = true,
         equipment_grid = "large-equipment-grid",
