@@ -25,6 +25,6 @@ data:extend{
       },
       time = 15
     },
-    order = "e-a-b
+    order = "e-a-b"
   }  
   }
