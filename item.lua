@@ -348,3 +348,5 @@ data:extend({
         inventory_size_bonus = 60
 	},
 })
+
+-- Roboport Mark 2

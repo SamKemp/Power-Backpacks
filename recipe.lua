@@ -3,7 +3,7 @@ data:extend({
     {
         type = "recipe",
         name = "backpack-wooden",
-        --enabled = false,
+        enabled = false,
         energy_required = 0.5,
         ingredients =
         {
@@ -14,7 +14,7 @@ data:extend({
     {
         type = "recipe",
         name = "backpack-iron",
-        --enabled = false,
+        enabled = false,
         energy_required = 1,
         ingredients =
         {
@@ -26,7 +26,7 @@ data:extend({
     {
         type = "recipe",
         name = "backpack-steel",
-        --enabled = false,
+        enabled = false,
         energy_required = 1.5,
         ingredients =
         {
@@ -41,7 +41,7 @@ data:extend({
     { -- Light Armor
         type = "recipe",
         name = "backpack-mk1",
-        --enabled = false,
+        enabled = false,
         order = "a[light-backpack]",
         energy_required = 3,
         ingredients =
@@ -54,7 +54,7 @@ data:extend({
     { -- Heavy Armor
         type = "recipe",
         name = "backpack-mk2",
-        --enabled = false,
+        enabled = false,
         order = "b[heavy-backpack]",
         energy_required = 8,
         ingredients =
@@ -68,7 +68,7 @@ data:extend({
     { -- Modular Armor
         type = "recipe",
         name = "backpack-mk3",
-        --enabled = false,
+        enabled = false,
         order = "c[modular-backpack]",
         energy_required = 15,
         ingredients =
@@ -82,7 +82,7 @@ data:extend({
     { -- Power Armor
         type = "recipe",
         name = "backpack-mk4",
-        --enabled = false,
+        enabled = false,
         order = "d[power-backpack]",
         energy_required = 20,
         ingredients =
@@ -97,7 +97,7 @@ data:extend({
     { -- Power Armor MK2
         type = "recipe",
         name = "backpack-mk5",
-        --enabled = false,
+        enabled = false,
         order = "e[power-backpack-mk2]",
         energy_required = 30,
         ingredients =
@@ -114,7 +114,7 @@ data:extend({
     { -- Power Armor MK3
         type = "recipe",
         name = "backpack-mk6",
-        --enabled = false,
+        enabled = false,
         order = "f[power-backpack-mk3]",
         energy_required = 40,
         ingredients =
@@ -131,7 +131,7 @@ data:extend({
     { -- Power Armor MK4
         type = "recipe",
         name = "backpack-mk7",
-        --enabled = false,
+        enabled = false,
         order = "g[power-backpack-mk4]",
         energy_required = 50,
         ingredients =
@@ -151,7 +151,7 @@ data:extend({
     { -- Power Armor MK3
         type = "recipe",
         name = "power-armor-mk3",
-        --enabled = false,
+        enabled = false,
         order = "f[power-backpack-mk3]",
         energy_required = 40,
         ingredients =
@@ -167,7 +167,7 @@ data:extend({
     { -- Power Armor MK4
         type = "recipe",
         name = "power-armor-mk4",
-        --enabled = false,
+        enabled = false,
         order = "g[power-backpack-mk4]",
         energy_required = 50,
         ingredients =
